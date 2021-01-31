@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3c8113f3.chunk.css",
+    "main.js": "/static/js/main.a8f41ca7.chunk.js",
+    "main.js.map": "/static/js/main.a8f41ca7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8a8e5b5f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8a8e5b5f.js.map",
+    "static/js/2.45c73378.chunk.js": "/static/js/2.45c73378.chunk.js",
+    "static/js/2.45c73378.chunk.js.map": "/static/js/2.45c73378.chunk.js.map",
+    "static/js/3.2f4fa670.chunk.js": "/static/js/3.2f4fa670.chunk.js",
+    "static/js/3.2f4fa670.chunk.js.map": "/static/js/3.2f4fa670.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.3c8113f3.chunk.css.map": "/static/css/main.3c8113f3.chunk.css.map",
+    "static/js/2.45c73378.chunk.js.LICENSE.txt": "/static/js/2.45c73378.chunk.js.LICENSE.txt",
+    "static/media/charleston-pineapple.1ad84db2.jpeg": "/static/media/charleston-pineapple.1ad84db2.jpeg",
+    "static/media/tree3.d514b7dd.jpeg": "/static/media/tree3.d514b7dd.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8a8e5b5f.js",
+    "static/js/2.45c73378.chunk.js",
+    "static/css/main.3c8113f3.chunk.css",
+    "static/js/main.a8f41ca7.chunk.js"
+  ]
+}
