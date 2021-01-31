@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route } from "react-router-dom";
 
 import Home from "./components/Home";
 import About from "./components/About";
@@ -9,16 +9,16 @@ import NavBar from "./components/NavBar";
 
 function App() {
   return (
-    <BrowserRouter>
-      <NavBar></NavBar>
-      <Switch>
+    
+      <HashRouter>
+        <NavBar></NavBar>
         <Route component={Home} path="/" exact />
         <Route component={About} path="/about" />
         <Route component={SinglePost} path="/post/:slug" />
         <Route component={Post} path="/post" />
         <Route component={Project} path="/project" />
-      </Switch>
-    </BrowserRouter>
+      </HashRouter>
+   
   );
 }
 
