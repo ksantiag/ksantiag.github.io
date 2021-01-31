@@ -4,7 +4,7 @@ import { SocialIcon, SocialIcons } from "react-social-icons";
 
 export default function NavBar() {
   return (
-    <header className="bg-gray-600">
+    <header className="bg-blue-600">
       <div className="container mx-auto  justify-between">
         <nav className="flex">
           <NavLink
