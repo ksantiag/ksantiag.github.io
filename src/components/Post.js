@@ -23,12 +23,12 @@ export default function Post() {
       .catch(console.error);
   }, []);
   return (
-    <main className="bg-green-100 min-h-screen p-12">
+    <main className="bg-gradient-to-r from-gray-400 via-white-500 to-gray-800 min-h-screen p-12">
       <section className="container mx-auto">
         <h1 className="text-5xl flex justify-center cursive">
           Blog Posts Page
         </h1>
-        <h2 className="text-lg text-gray-600 flex justify-center mb-12">
+        <h2 className="text-lg text-gray-300 flex justify-center mb-12">
           Welcome to my page of blog posts
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -40,7 +40,7 @@ export default function Post() {
                   key={post.slug.current}
                 >
                   <span
-                    className="block h-64 relative rounded shadow leading-snug bg-white border-l-8 border-green-400"
+                    className="block h-64 relative rounded shadow leading-snug bg-white border-l-8 border-yellow-400"
                     key={index}
                   >
                     <img

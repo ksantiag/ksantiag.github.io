@@ -28,7 +28,7 @@ export default function About() {
   if (!author) return <div>LOADING</div>;
   return (
     <main className="relative">
-      <img src={tree3} alt="green moss on a tree" className="absolute w-full" />
+      <img src={tree3} alt="green moss on a tree" className="absolute object-cover w-full h-full" />
       <div className="p-10 lg:pt-48 container mx-auto relative">
         <section className="bg-green-800 rounded-lg shadow-2xl lg:flex p-20">
           <img
