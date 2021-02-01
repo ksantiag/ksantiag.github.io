@@ -1,11 +1,11 @@
 import { BrowserRouter, HashRouter, Route } from "react-router-dom";
 
-import Home from "./components/Home";
-import About from "./components/About";
-import SinglePost from "./components/SinglePost";
-import Post from "./components/Post";
-import Project from "./components/Project";
-import NavBar from "./components/NavBar";
+import Home from "./components/Home.jsx";
+import About from "./components/About.jsx";
+import SinglePost from "./components/SinglePost.jsx";
+import Post from "./components/Post.jsx";
+import Project from "./components/Project.jsx";
+import NavBar from "./components/NavBar.jsx";
 
 function App() {
   return (
