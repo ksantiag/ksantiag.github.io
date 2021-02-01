@@ -23,7 +23,7 @@ export default function Post() {
       .catch(console.error);
   }, []);
   return (
-    <main className="bg-gradient-to-r from-gray-400 via-white-500 to-gray-800 min-h-screen p-12">
+    <main className="bg-gray-600 mt-36 min-h-screen p-12">
       <section className="container mx-auto">
         <h1 className="text-5xl flex justify-center cursive">
           Blog Posts Page
@@ -40,7 +40,8 @@ export default function Post() {
                   key={post.slug.current}
                 >
                   <span
-                    className="block h-64 relative rounded shadow leading-snug bg-white border-l-8 border-yellow-400"
+                    className="block h-64 relative rounded shadow leading-snug bg-white border-l-8"
+                    style={{borderColor: "#86C232"}}
                     key={index}
                   >
                     <img
