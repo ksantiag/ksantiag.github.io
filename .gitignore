@@ -13,7 +13,7 @@ node_modules
 
 # misc
 .DS_Store
-.eslintcache
+.eslintcache*
 .env.local
 .env.development.local
 .env.test.local
