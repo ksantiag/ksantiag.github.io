@@ -34,7 +34,10 @@ export default function About() {
         className="absolute object-cover w-full h-full fixed"
       />
       <div className="p-10 lg:pt-48 container mx-auto relative">
-        <section className="rounded-lg shadow-2xl lg:flex p-20 opacity-80" style={{backgroundColor: "#6b6e70"}}>
+        <section
+          className="rounded-lg shadow-2xl lg:flex p-20 opacity-80"
+          style={{ backgroundColor: "#6b6e70" }}
+        >
           <img
             src={urlFor(author.authorImage).url()}
             className="rounded w-32 h-32 lg:w-64 lg:h-64 mr-8 "
@@ -45,6 +48,30 @@ export default function About() {
               Hey there. I'm{" "}
               <span className="text-green-100">{author.name}</span>
             </h1>
+            <p className="text-gray-100">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+              Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+              sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
+              vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+              imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
+              mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
+              semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
+              porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem
+              ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus
+              viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
+              imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper
+              ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus,
+              tellus eget condimentum rhoncus, sem quam semper libero, sit amet
+              adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus
+              pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt
+              tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam
+              quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis
+              leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis
+              magna. Sed consequat, leo eget bibendum sodales, augue velit
+              cursus nunc,
+            </p>
             <div className="prose lg:prose-xl text-white">
               <BlockContent
                 blocks={author.bio}

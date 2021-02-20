@@ -39,13 +39,6 @@ export default function NavBar() {
             style={{ height: 35, width: 35 }}
           />
           <SocialIcon
-            url="https://stackoverflow.com/users/15116985/ksantiag"
-            className="mr-4"
-            target="_blank"
-            fgColor="#fff"
-            style={{ height: 35, width: 35 }}
-          />
-          <SocialIcon
             url="https://github.com/ksantiag"
             className="mr-4"
             target="_blank"
