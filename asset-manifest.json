@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.3c8113f3.chunk.css",
-    "main.js": "/static/js/main.05e0147f.chunk.js",
-    "main.js.map": "/static/js/main.05e0147f.chunk.js.map",
+    "main.js": "/static/js/main.9304f6ed.chunk.js",
+    "main.js.map": "/static/js/main.9304f6ed.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ed537b90.js",
     "runtime-main.js.map": "/static/js/runtime-main.ed537b90.js.map",
     "static/js/2.5a3233bd.chunk.js": "/static/js/2.5a3233bd.chunk.js",
@@ -13,12 +13,15 @@
     "static/css/main.3c8113f3.chunk.css.map": "/static/css/main.3c8113f3.chunk.css.map",
     "static/js/2.5a3233bd.chunk.js.LICENSE.txt": "/static/js/2.5a3233bd.chunk.js.LICENSE.txt",
     "static/media/charleston-pineapple.1ad84db2.jpeg": "/static/media/charleston-pineapple.1ad84db2.jpeg",
+    "static/media/resume_pdf_1.b3329ff8.jpg": "/static/media/resume_pdf_1.b3329ff8.jpg",
+    "static/media/resume_pdf_2.006f8820.jpg": "/static/media/resume_pdf_2.006f8820.jpg",
+    "static/media/resume_pdf_20210715-12638-1tzulse.a914feb6.pdf": "/static/media/resume_pdf_20210715-12638-1tzulse.a914feb6.pdf",
     "static/media/tree3.d514b7dd.jpeg": "/static/media/tree3.d514b7dd.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.ed537b90.js",
     "static/js/2.5a3233bd.chunk.js",
     "static/css/main.3c8113f3.chunk.css",
-    "static/js/main.05e0147f.chunk.js"
+    "static/js/main.9304f6ed.chunk.js"
   ]
 }
