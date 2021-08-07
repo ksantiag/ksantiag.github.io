@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.3c8113f3.chunk.css",
-    "main.js": "/static/js/main.4bf124d4.chunk.js",
-    "main.js.map": "/static/js/main.4bf124d4.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ed537b90.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ed537b90.js.map",
-    "static/js/2.ace59b73.chunk.js": "/static/js/2.ace59b73.chunk.js",
-    "static/js/2.ace59b73.chunk.js.map": "/static/js/2.ace59b73.chunk.js.map",
-    "static/js/3.d670ad79.chunk.js": "/static/js/3.d670ad79.chunk.js",
-    "static/js/3.d670ad79.chunk.js.map": "/static/js/3.d670ad79.chunk.js.map",
+    "main.css": "/static/css/main.2dd703f6.chunk.css",
+    "main.js": "/static/js/main.6a305dc3.chunk.js",
+    "main.js.map": "/static/js/main.6a305dc3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6c7bf563.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6c7bf563.js.map",
+    "static/js/2.b9a21626.chunk.js": "/static/js/2.b9a21626.chunk.js",
+    "static/js/2.b9a21626.chunk.js.map": "/static/js/2.b9a21626.chunk.js.map",
+    "static/js/3.d9b9d8fe.chunk.js": "/static/js/3.d9b9d8fe.chunk.js",
+    "static/js/3.d9b9d8fe.chunk.js.map": "/static/js/3.d9b9d8fe.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.3c8113f3.chunk.css.map": "/static/css/main.3c8113f3.chunk.css.map",
-    "static/js/2.ace59b73.chunk.js.LICENSE.txt": "/static/js/2.ace59b73.chunk.js.LICENSE.txt",
+    "static/css/main.2dd703f6.chunk.css.map": "/static/css/main.2dd703f6.chunk.css.map",
+    "static/js/2.b9a21626.chunk.js.LICENSE.txt": "/static/js/2.b9a21626.chunk.js.LICENSE.txt",
     "static/media/charleston-pineapple.1ad84db2.jpeg": "/static/media/charleston-pineapple.1ad84db2.jpeg",
+    "static/media/App.scss": "/static/media/pokedex.af128108.png",
     "static/media/resume_pdf_1.b3329ff8.jpg": "/static/media/resume_pdf_1.b3329ff8.jpg",
     "static/media/resume_pdf_2.006f8820.jpg": "/static/media/resume_pdf_2.006f8820.jpg",
     "static/media/resume_pdf_20210715-12638-1tzulse.a914feb6.pdf": "/static/media/resume_pdf_20210715-12638-1tzulse.a914feb6.pdf",
     "static/media/tree3.d514b7dd.jpeg": "/static/media/tree3.d514b7dd.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ed537b90.js",
-    "static/js/2.ace59b73.chunk.js",
-    "static/css/main.3c8113f3.chunk.css",
-    "static/js/main.4bf124d4.chunk.js"
+    "static/js/runtime-main.6c7bf563.js",
+    "static/js/2.b9a21626.chunk.js",
+    "static/css/main.2dd703f6.chunk.css",
+    "static/js/main.6a305dc3.chunk.js"
   ]
 }
