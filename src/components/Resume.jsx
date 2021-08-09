@@ -1,11 +1,12 @@
 import React from "react";
-import image from "../KSResume.jpg";
-import image2 from "../KSResume2.jpg";
-import file from "../KSResume.pdf";
+import image from "../resume_pdf_1.jpg";
+import image2 from "../resume_pdf_2.jpg";
+import file from "../resume_pdf_20210715-12638-1tzulse.pdf"
+
 
 export default function Resume() {
   return (
-    <main className="mt-36">
+    <main style={{backgroundColor: "white;"}}>
       <form method="get" target="_blank" action={file}>
         <button className="ml-10 mt-10">
           <span className="hover:text-red-600 lg:text-5xl cursive">

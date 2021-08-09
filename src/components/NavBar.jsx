@@ -29,6 +29,13 @@ export default function NavBar() {
           >
             Resume
           </NavLink>
+          <NavLink
+            to="/pokedex"
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-gray-100 hover:text-gray-400"
+            activeClassName="text-red-100 bg-gray-600"
+          >
+            PokeDex
+          </NavLink>
         </nav>
         <div className="inline-flex mb-2 px-3">
           <SocialIcon

@@ -27,7 +27,7 @@ export default function About() {
 
   if (!author) return <div>LOADING</div>;
   return (
-    <main className="mt-36 bg-gradient-to-r from-gray-400 via-white-500 to-gray-800 min-h-screen">
+    <main className="bg-gradient-to-r from-gray-400 via-white-500 to-gray-800 min-h-screen">
       <img
         src={tree3}
         alt="green moss on a tree"
