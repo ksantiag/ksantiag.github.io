@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import Gif from '../components/Gif'
 import "../App.scss";
 
 export default function PokeDex() {
@@ -9,8 +8,7 @@ export default function PokeDex() {
   const [pokemonType, setPokemonType] = useState("");
   const [pokemonName, setPokemonName] = useState("Pikachu");
   const [pokemonImg, setPokemonImg] = useState([]);
-  const [gifData, setGifData] = useState([]);
-  const [gifDataUrl, setGifDataUrl] = useState("");
+  const [gifData, setGifData] = useState("");
 
   // cjUaExenXgP009WEGdQSX6aMC8o0WMQh
   const getPokemon = async () => {
@@ -27,11 +25,8 @@ export default function PokeDex() {
       console.log(e);
     }
   };
-  useEffect(() => {
-    console.log(gifData);
-  }, []);
 
-  const fetchData = async ()=> {
+  const fetchData = async () => {
     const toArray = [];
     try {
       const url = "https://api.giphy.com/v1/gifs/search";
@@ -39,8 +34,8 @@ export default function PokeDex() {
         params: { api_key: "cjUaExenXgP009WEGdQSX6aMC8o0WMQh", q: pokemonName },
       });
       toArray.push(results.data);
-      setGifData(toArray);
-      setGifDataUrl(results.data[0].data.images.downsized_large.url);
+      setGifData(results.data.data[0].images.fixed_height.url);
+
     } catch (e) {
       console.log(e);
     }
@@ -49,16 +44,15 @@ export default function PokeDex() {
   useEffect(() => {
     getPokemon();
     fetchData();
-    console.log(gifData);
   }, []);
-
-  const renderGif = () => {
-    return (
-      <div>
-        <img src={gifDataUrl} />
-      </div>
-    );
-  };
+console.log(gifData)
+  // const renderGif = () => {
+  //   return (
+  //     <div>
+  //       <img src={gif.data.images.fixed_height.url} />
+  //     </div>
+  //   );
+  // };
   const handleChange = (e) => {
     setPokeMon(e.target.value.toLowerCase());
   };
@@ -124,7 +118,7 @@ export default function PokeDex() {
           })}
         </div>
         <div className="gif-container">
-          {renderGif()}
+          <img src={gifData} />
         </div>
       </div>
     </div>
